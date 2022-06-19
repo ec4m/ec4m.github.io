@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #777777;
+    padding: 10px;
+}
+
+.header {
+    background-color: #222133;
+    width: 100%;
+    height:76px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 2px #ffffff;
+    border-radius: 32px 32px 0 0;
+    padding: 12px;
+    padding-left: 32px;
+}
+.header__title {
+    color: #ffffff;
+    font-weight: bolder;
+}
+.header__subtitle {
+    color: #ffffff;
+    margin-left: 56px;
+    position: relative;
+    top: -8px;
+}
+
+
+.main {
+    width: 100%;
+    min-height: 840px;
+    background-color: #222133;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0 0 32px 32px;
+}
+
+.main-container {
+    width: 72vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.menu__nav {
+    width: 100%;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    margin-top: 20px;
+}
+.menu__lista {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 244px;
+    border-bottom: solid 2px #ffffff;
+}
+.menu__items:nth-child(2) {
+    border-right: solid 2px #ffffff;
+    border-left: solid 2px #ffffff;
+    padding-right: 48px;
+    padding-left: 48px;
+}
+.menu__ancla {
+    color: #ffffff;
+}
+
+.main-container__carrusel {
+    width: 100%;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+.figure-carrusel {
+    width: 200px;
+    height: 360px;
+    background-color: antiquewhite;
+    border-radius: 16px;
+    /*border: solid 1px #333333;*/
+    overflow: hidden;
+    transition: transform 1s ease;
+}
+.figure-carrusel--borde {
+    height: 280px;
+    width: 160px;
+}
+.figure-carrusel--medio {
+    height: 320px;
+    width: 180px;
+}
+.figure-carrusel:hover {
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}
+
+.main-container__img {
+    height: 100%;
+}
+
+.contenido {
+    font-size: 1.2rem;
+    width: 100%;
+    min-height: 200px;
+    background-color: #111120;
+    color: #ffffff;
+    border-radius: 24px;
+    margin-top: 24px;
+    padding: 20px;
+}
+
+
+.main__publicidad {
+    width: 220px;
+    height: 400px;
+    margin-right: 24px;
+}
+.anuncio {
+    width: 100%;
+    min-height: 100px;
+    border-radius: 24px;
+    overflow: hidden;
+    margin-top: 24px;
+}
+.anuncio__primero {
+    width: 100%;
+}
+.anuncio__segundo {
+    width: 100%;
+}
+
+

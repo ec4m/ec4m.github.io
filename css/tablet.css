@@ -1,0 +1,42 @@
+:root {
+    --background-first: #F5F2E7;
+    --background-second: #2C3333;
+    --color-text: #395B64;
+    --color-icons: #2666CFs
+}
+.section-card {
+    width: 50%;
+}
+.card-container:hover {
+    transform: scale(1.05);
+} 
+.header__nav {
+    width: 400px;
+}
+.button-nav {
+    width: 80px;
+    height: 40px;  
+}
+.button-nav__figure {
+    width: 80px;
+    height: 40px;
+
+}
+.button-nav__span {
+    width: 80px;
+    height: 40px;
+}
+
+.main-skills {
+    flex-direction: row;
+}
+.about-me {
+    width: 50%;
+}
+.skills {
+    width: 50%;
+    border-top: 1px solid var(--background-second);
+}
+.footer {
+    border-top: 1px solid var(--background-first);
+}

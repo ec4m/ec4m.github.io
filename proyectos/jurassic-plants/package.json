@@ -1,0 +1,20 @@
+{
+  "name": "jurassic-plants",
+  "version": "1.0.0",
+  "description": "Página de visualización de las redes sociales de Jurassic Plants",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ec4m/jurassic-plants.git"
+  },
+  "keywords": [],
+  "author": "ec4m <ec.angaritas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ec4m/jurassic-plants/issues"
+  },
+  "homepage": "https://github.com/ec4m/jurassic-plants#readme"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "uxtation",
+  "version": "1.0.0",
+  "description": "Desarrollo colaborativo de la página de UXtation y space.c",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ec4m/UXtation.git"
+  },
+  "keywords": [
+    "UXtation",
+    "UX",
+    "space.c",
+    "colaborativo"
+  ],
+  "author": "ec4m <ec.angaritas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ec4m/UXtation/issues"
+  },
+  "homepage": "https://github.com/ec4m/UXtation#readme"
+}
